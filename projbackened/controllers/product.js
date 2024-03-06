@@ -116,7 +116,6 @@ exports.updateProduct = (req, res) => {
       });
     }
 
-    //updation code
     let product = req.product;
     product = _.extend(product, fields);
 
